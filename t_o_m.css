@@ -1,0 +1,20 @@
+.title {
+  font-family: Verdana;
+  color: rgb(20, 30, 200);
+  text-align: center;
+}
+
+body {
+  background-color: rgb(200,100,0)
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.directors {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  width: 100%;
+}

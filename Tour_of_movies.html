@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="styles.css">
+<h1 id="title" class="title">Registration for the Tour of Movies</h1>
+<p id="description">Sign up now to explore the world of movies!</p>
+<form id="survey-form">
+  <label id="name-label" class="bold">Name:</label>
+  <input id="name" type="text" placeholder="Name" required><br><br>
+  <label id="email-label" class="bold">E-mail:</label>
+  <input id="email" type="email" placeholder="E-mail" required><br><br>
+  <label id="number-label" class="bold">Number: </label><input id="number" type="number" min="0" max="9" placeholder="no.">
+  <select id="dropdown">
+    <option>1</option>
+    <option>2</option>
+  </select>
+  <br><br>
+  <fieldset><label class="bold">Gender: </label>
+    <input name="yo" type="radio" value="male">Male
+    <input name="yo" type="radio" value="female">Female
+  </fieldset><br><label class="bold">Who is your favourite director?</label><br><br>
+  <div class="directors">
+    <label><input type="checkbox" value="Chazelle">Damien Chazelle</label>
+    <label><input type="checkbox" value="Scorsese">Martin Scorsese</label>
+    <label><input type="checkbox" value="Nolan">Christopher Nolan</label>
+  </div>
+  <br><br>
+  <label class="bold">Anything you wanna let us know?</label>
+  <br><textarea>
+  </textarea>
+  <br><input id="submit" type="submit">
+</form>
